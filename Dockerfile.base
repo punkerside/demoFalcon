@@ -1,0 +1,4 @@
+FROM alpine:3.18.9
+LABEL org.opencontainers.image.authors="punkerside"
+RUN apk update && apk upgrade
+WORKDIR /app
